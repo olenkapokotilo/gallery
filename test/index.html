@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link href='style/style.css' rel='stylesheet' type='text/css' />
+
+</head>
+    <body>
+       
+       
+        <!--<div class="aaa"></div>-->
+        <div class="popup">
+
+            <div class="popup-content">
+                <div class="popup-img"><img id="popup-img" alt="###" /></div>
+                <div class="comment-content">
+                    <a id="close-popup"><img src="img/close-icon.png" /></a>
+                    <p id="popup-comment-title">Comments: </p>
+                    <div id="popup-comment-ietms">
+                        <div class="popup-comment-item">
+                            <span class="comment-by">By Bla-bla </span>
+                            <span class="comment-date">Todey 12/12 </span>
+                            <p class="comment-text">text comment</p>
+                        </div>
+                        <div class="popup-comment-item">
+                            <span class="comment-by">By Bla-bla </span>
+                            <span class="comment-date">Todey 12/12 </span>
+                            <p class="comment-text">text comment</p>
+                        </div>
+                        <div class="popup-comment-item">
+                            <span class="comment-by">By Bla-bla </span>
+                            <span class="comment-date">Todey 12/12 </span>
+                            <p class="comment-text">text comment</p>
+                        </div>
+                        <div class="popup-comment-item">
+                            <span class="comment-by">By Bla-bla </span>
+                            <span class="comment-date">Todey 12/12 </span>
+                            <p class="comment-text">text comment</p>
+                        </div>
+
+                    </div>
+                    <div id="add-comment">
+                        <input id="nickname" type="text" /><br />
+                        <textarea id="new-comment"></textarea>
+                        <a id="send"><img src="img/send-icon.png" /></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+           <div id="logo">
+                <h1>WELCOME TO VISEVEN <span>IMEGESTOCK</span></h1>
+            </div>
+            <div class="grid">
+                <!-- :adding block-->
+                <div class="adding">
+                    <label class="load" for="file-input">
+                        <img src="img/add-btn.png" />
+                        <br />Add your Picture
+                    </label>
+                    <input id="file-input" type="file" />
+                </div>
+                <!-- :hover cover image-->
+                <div class="cover-img">
+                    <div class="countComment">
+                        <img src="img/comment-icon.png" /><canvas id="countComment" class="num-box" width="17" height="17"></canvas>
+                    </div>
+                    <div class="rating"><img src="img/like-icon.png" /><canvas id="countLike" class="num-box" width="17" height="17"></canvas></div>
+                    <div class="rating"><img src="img/dislike-icon.png" /><canvas id="countDislike" class="num-box" width="17" height="17"></canvas></div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="js//masonryHorizontal.js"></script>
+        <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.nicescroll.js"></script>
+        <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>-->
+
+
+
+        <script src="js/app.js"></script>
+
+    </body>
+</html>

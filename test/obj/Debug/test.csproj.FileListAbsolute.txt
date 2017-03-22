@@ -1,0 +1,11 @@
+D:\olenka\test\test\test\bin\test.dll
+D:\olenka\test\test\test\bin\test.pdb
+D:\olenka\test\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache
+D:\olenka\test\test\test\obj\Debug\test.dll
+D:\olenka\test\test\test\obj\Debug\test.pdb
+F:\test\test\obj\Debug\test.dll
+F:\test\test\obj\Debug\test.pdb
+F:\test\test\bin\test.dll.config
+F:\test\test\bin\test.dll
+F:\test\test\bin\test.pdb
+F:\test\test\obj\Debug\test.csprojResolveAssemblyReference.cache

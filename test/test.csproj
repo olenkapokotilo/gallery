@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AF5221DA-717D-44FA-A062-B50C771D81F3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>test</RootNamespace>
+    <AssemblyName>test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\1.PNG" />
+    <Content Include="img\2.PNG" />
+    <Content Include="img\add-btn.png" />
+    <Content Include="index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\jquery-3.1.1.min.js" />
+    <Content Include="js\jquery.nicescroll.js" />
+    <Content Include="js\jquery.nicescroll.min.js" />
+    <Content Include="js\masonry.pkgd.min.js" />
+    <Content Include="js\masonryHorizontal.js" />
+    <Content Include="style\bootstrap.min.css" />
+    <Content Include="style\style.css" />
+    <Content Include="unitegallery\css\unite-gallery.css" />
+    <Content Include="unitegallery\images\button-close.png" />
+    <Content Include="unitegallery\images\cover-grid.png" />
+    <Content Include="unitegallery\images\icon-link32.png" />
+    <Content Include="unitegallery\images\icon-play32.png" />
+    <Content Include="unitegallery\images\icon-zoom32.png" />
+    <Content Include="unitegallery\images\lightbox-arrow-left.png" />
+    <Content Include="unitegallery\images\lightbox-arrow-right.png" />
+    <Content Include="unitegallery\images\lightbox-icon-close-compact.png" />
+    <Content Include="unitegallery\images\lightbox-icon-close-compact2.png" />
+    <Content Include="unitegallery\images\lightbox-icon-close.png" />
+    <Content Include="unitegallery\images\loader-black1.gif" />
+    <Content Include="unitegallery\images\loader-black2.gif" />
+    <Content Include="unitegallery\images\loader-black3.gif" />
+    <Content Include="unitegallery\images\loader-black4.gif" />
+    <Content Include="unitegallery\images\loader-black5.gif" />
+    <Content Include="unitegallery\images\loader-black6.gif" />
+    <Content Include="unitegallery\images\loader-black7.gif" />
+    <Content Include="unitegallery\images\loader-white1.gif" />
+    <Content Include="unitegallery\images\loader-white2.gif" />
+    <Content Include="unitegallery\images\loader-white3.gif" />
+    <Content Include="unitegallery\images\loader-white4.gif" />
+    <Content Include="unitegallery\images\loader-white5.gif" />
+    <Content Include="unitegallery\images\loader-white6.gif" />
+    <Content Include="unitegallery\images\loader-white7.gif" />
+    <Content Include="unitegallery\images\loader.gif" />
+    <Content Include="unitegallery\images\loader_bright.gif" />
+    <Content Include="unitegallery\images\loader_skype_trans.gif" />
+    <Content Include="unitegallery\images\not_loaded.png" />
+    <Content Include="unitegallery\images\play-button-round.png" />
+    <Content Include="unitegallery\images\play-button-square.png" />
+    <Content Include="unitegallery\images\transparent.png" />
+    <Content Include="unitegallery\js\jquery-11.0.min.js" />
+    <Content Include="unitegallery\js\unitegallery.js" />
+    <Content Include="unitegallery\js\unitegallery.min.js" />
+    <Content Include="unitegallery\release_log.txt" />
+    <Content Include="unitegallery\skins\alexis\alexis.css" />
+    <Content Include="unitegallery\skins\alexis\images\arrows_strip_left.png" />
+    <Content Include="unitegallery\skins\alexis\images\arrows_strip_right.png" />
+    <Content Include="unitegallery\skins\alexis\images\button_fullscreen.png" />
+    <Content Include="unitegallery\skins\alexis\images\button_playpause.png" />
+    <Content Include="unitegallery\skins\alexis\images\button_zoom_back.png" />
+    <Content Include="unitegallery\skins\alexis\images\button_zoom_minus.png" />
+    <Content Include="unitegallery\skins\alexis\images\button_zoom_plus.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_arrow_down.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_arrow_left.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_arrow_left_hortype.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_arrow_right.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_arrow_right_hortype.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_arrow_up.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_handle_down.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_handle_left.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_handle_right.png" />
+    <Content Include="unitegallery\skins\alexis\images\grid_handle_up.png" />
+    <Content Include="unitegallery\skins\alexis\images\slider_arrow_left.png" />
+    <Content Include="unitegallery\skins\alexis\images\slider_arrow_right.png" />
+    <Content Include="unitegallery\skins\alexis\images\slider_bullets.png" />
+    <Content Include="unitegallery\skins\default\arrows_strip_down.png" />
+    <Content Include="unitegallery\skins\default\arrows_strip_left.png" />
+    <Content Include="unitegallery\skins\default\arrows_strip_right.png" />
+    <Content Include="unitegallery\skins\default\arrows_strip_up.png" />
+    <Content Include="unitegallery\skins\default\arrow_grid_down.png" />
+    <Content Include="unitegallery\skins\default\arrow_grid_up.png" />
+    <Content Include="unitegallery\skins\default\button_fullscreen.png" />
+    <Content Include="unitegallery\skins\default\button_playpause.png" />
+    <Content Include="unitegallery\skins\default\grid_arrow_left.png" />
+    <Content Include="unitegallery\skins\default\grid_arrow_right.png" />
+    <Content Include="unitegallery\skins\default\grid_handle_black_bottom.png" />
+    <Content Include="unitegallery\skins\default\grid_handle_black_left.png" />
+    <Content Include="unitegallery\skins\default\grid_handle_black_right.png" />
+    <Content Include="unitegallery\skins\default\grid_handle_black_top.png" />
+    <Content Include="unitegallery\skins\default\icon_zoom_back.png" />
+    <Content Include="unitegallery\skins\default\icon_zoom_minus.png" />
+    <Content Include="unitegallery\skins\default\icon_zoom_plus.png" />
+    <Content Include="unitegallery\skins\default\slider_arrow_left.png" />
+    <Content Include="unitegallery\skins\default\slider_arrow_right.png" />
+    <Content Include="unitegallery\skins\default\slider_bullets.png" />
+    <Content Include="unitegallery\skins\default\tile_bullets_blue.png" />
+    <Content Include="unitegallery\skins\default\tile_bullets_brown.png" />
+    <Content Include="unitegallery\skins\default\tile_bullets_gray.png" />
+    <Content Include="unitegallery\skins\default\tile_bullets_green.png" />
+    <Content Include="unitegallery\skins\default\tile_bullets_red.png" />
+    <Content Include="unitegallery\skins\default\tile_button_left.png" />
+    <Content Include="unitegallery\skins\default\tile_button_play_pause.png" />
+    <Content Include="unitegallery\skins\default\tile_button_right.png" />
+    <Content Include="unitegallery\themes\carousel\ug-theme-carousel.js" />
+    <Content Include="unitegallery\themes\compact\ug-theme-compact.js" />
+    <Content Include="unitegallery\themes\default\images\arrows_strip_left.png" />
+    <Content Include="unitegallery\themes\default\images\arrows_strip_right.png" />
+    <Content Include="unitegallery\themes\default\images\arrow_down_up.png" />
+    <Content Include="unitegallery\themes\default\images\button_fullscreen.png" />
+    <Content Include="unitegallery\themes\default\images\button_fullscreen_single.png" />
+    <Content Include="unitegallery\themes\default\images\button_playpause.png" />
+    <Content Include="unitegallery\themes\default\images\button_playpause_single.png" />
+    <Content Include="unitegallery\themes\default\ug-theme-default.css" />
+    <Content Include="unitegallery\themes\default\ug-theme-default.js" />
+    <Content Include="unitegallery\themes\grid\ug-theme-grid.js" />
+    <Content Include="unitegallery\themes\slider\ug-theme-slider.js" />
+    <Content Include="unitegallery\themes\tilesgrid\ug-theme-tilesgrid.js" />
+    <Content Include="unitegallery\themes\tiles\ug-theme-tiles.js" />
+    <Content Include="unitegallery\themes\video\images\arrow_left.png" />
+    <Content Include="unitegallery\themes\video\images\arrow_right.png" />
+    <Content Include="unitegallery\themes\video\skin-bottom-text.css" />
+    <Content Include="unitegallery\themes\video\skin-right-no-thumb.css" />
+    <Content Include="unitegallery\themes\video\skin-right-thumb.css" />
+    <Content Include="unitegallery\themes\video\skin-right-title-only.css" />
+    <Content Include="unitegallery\themes\video\ug-theme-video.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2398/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
