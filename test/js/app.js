@@ -33,6 +33,7 @@
 
     $('.wrapper').niceScroll({ cursorcolor: "#21b8c6", cursoropacitymin: "1", cursorwidth: "10px", background: "#d1dae2", cursorborder: "1px solid #21b8c6" });
     // -----------------------------------------------
+   
     $('.grid').on("click", ".grid-item", function (event) {
         $("#popup-img")[0].src = event.target.src; //TODO: first el()
         $(".popup").fadeIn();
