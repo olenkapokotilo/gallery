@@ -33,6 +33,51 @@
 
     $('.wrapper').niceScroll({ cursorcolor: "#21b8c6", cursoropacitymin: "1", cursorwidth: "10px", background: "#d1dae2", cursorborder: "1px solid #21b8c6" });
     // -----------------------------------------------
+    var marked = false;
+    $(".popup").on("click", ".popup-mark", function (event) {
+        if (!marked) {
+            marked = true;
+            event.target.src = "img/dislike-icon-active.png";
+            $(event.currentTarget).addClass("active");
+            // TODO: countLike +1
+        } else {
+            marked = false;
+            event.target.src = "img/dislike-icon.png";
+            $(event.currentTarget).removeClass("active");
+            // TODO: countLike -1
+        }
+        
+    });
+
+
+    var canvasCountDislike = $('#clickCountDislike')[0];
+    var contextClickCountDislike = canvasCountDislike.getContext('2d');
+    var img = new Image();
+    img.src = "img/num-box.png";
+    img.onload = function () {
+        contextClickCountDislike.drawImage(img, 0, 0);
+        contextClickCountDislike.font = "11px sans-serif";
+        contextClickCountDislike.fillStyle = "#48949d";
+        contextClickCountDislike.textAlign = "center";
+        contextClickCountDislike.textBaseline = 'middle';
+        contextClickCountDislike.fillText("3", 9, 8);
+    };
+
+
+    var canvasClickCountLike = $('#clickCountLike')[0];
+    var contextClickCountLike = canvasClickCountLike.getContext('2d');
+    var img = new Image();
+    img.src = "img/num-box.png";
+    img.onload = function () {
+        contextClickCountLike.drawImage(img, 0, 0);
+        contextClickCountLike.font = "11px sans-serif";
+        contextClickCountLike.fillStyle = "#48949d";
+        contextClickCountLike.textAlign = "center";
+        contextClickCountLike.textBaseline = 'middle';
+        contextClickCountLike.fillText("5", 9, 8);
+    };
+
+    // -----------------------------------------------
    
     $('.grid').on("click", ".grid-item", function (event) {
         $("#popup-img")[0].src = event.target.src; //TODO: first el()

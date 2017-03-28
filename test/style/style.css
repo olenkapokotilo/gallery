@@ -148,7 +148,10 @@ body{/*overflow-y: hidden;*/
     left: 0;  
     right: 0;
 }
-
+.active {
+    background-color: red;
+    bottom: -10px;
+}
 
 .comment-content{
     
